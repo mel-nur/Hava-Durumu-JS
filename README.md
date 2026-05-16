@@ -129,18 +129,6 @@ Bu projede aşağıdaki JavaScript konuları uygulanmıştır:
 
 ---
 
-## 🔮 Gelecekte Eklenebilecek Özellikler
-
-- 5 günlük hava tahmini
-- Konuma göre otomatik hava durumu
-- Karanlık/Aydınlık tema
-- Şehir favorileme sistemi
-- Daha gelişmiş hava ikonları
-- Sıcaklık grafikleri
-- Çoklu dil desteği
-
----
-
 ## 👩‍💻 Geliştirici
 
 Melike Nur Çotak
