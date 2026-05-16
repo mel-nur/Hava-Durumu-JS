@@ -128,7 +128,7 @@ araBtn.addEventListener("click", () => {
 input.addEventListener("keydown", (e) => {
     if(e.key === "Enter") {
         const sehir = input.value.trim();
-        if (sehir) havaDurumunuGetir();
+        if (sehir) havaDurumunuGetir(sehir);
     }
 });
 
