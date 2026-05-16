@@ -5,7 +5,7 @@ Modern ve kullanıcı dostu bir hava durumu uygulaması. Kullanıcı şehir adı
 ## 📷 Uygulama Görselleri
 
 ### Ana Ekran
-![Ana Ekran](images/ana-ekran.png)
+![Ana Ekran](image/ana-ekran.png)
 
 ---
 
