@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #0f0f1a;
+    color: #e0e0e0;
+    font-family: 'Segeo UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+}
+
+.saat-tarih {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 1.5rem;
+}
+
+#saat {
+    font-size: 1.1rem;
+    color: #ccc;
+    font-weight: 600;
+}
+
+.arama-kutusu {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 0.75rem;
+}
+
+.arama-kutusu input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #2a2a3d;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.arama-kutusu input:focus {
+  border-color: #4f8ef7;
+}
+
+.arama-kutusu button {
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background: #4f8ef7;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.arama-kutusu button:hover {
+    background: #3a7de0;
+}
+
+.gecmis {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.gecmis-item {
+  background: #1a1a2e;
+  border: 1px solid #2a2a3d;
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #aaa;
+  transition: all 0.2s;
+}
+
+.gecmis-item:hover {
+  border-color: #4f8ef7;
+  color: #4f8ef7;
+}
+
+.hava-kart {
+  background: #1a1a2e;
+  border: 1px solid #2a2a3d;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bos-mesaj {
+  color: #555;
+  font-size: 1rem;
+}
+
+.sehir-adi {
+  font-size: 1.6rem;
+   font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.ulke {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.hava-ikon {
+  font-size: 5rem;
+  margin: 0.5rem 0;
+}
+
+.sicaklik {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #4f8ef7;
+}
+
+.durum {
+  font-size: 1rem;
+  color: #aaa;
+  text-transform: capitalize;
+  margin-top: 0.25rem;
+}
+
+.detaylar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  border-top: 1px solid #2a2a3d;
+  padding-top: 1.25rem;
+}
+
+.detay-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detay-label {
+  font-size: 0.75rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.detay-deger {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hata {
+  color: #f77;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
