@@ -7,12 +7,6 @@ Modern ve kullanıcı dostu bir hava durumu uygulaması. Kullanıcı şehir adı
 ### Ana Ekran
 ![Ana Ekran](images/ana-ekran.png)
 
-### Şehir Arama
-![Şehir Arama](images/sehir-arama.png)
-
-### Hava Durumu Kartı
-![Hava Durumu Kartı](images/hava-karti.png)
-
 ---
 
 ## 🚀 Özellikler
